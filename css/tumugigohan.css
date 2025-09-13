@@ -1,0 +1,573 @@
+
+.title-flex{
+  display: flex;
+  align-items: center;
+  margin-top: 76px;
+  margin-bottom: 48px;
+}
+
+h2{
+  position: relative;
+  font-size: 32px;
+  font-weight: 400;
+  padding-left: 8%;
+}
+h2::after{
+  position: absolute;
+  content: "";
+  background-image: url(../portfolio_img/apple_spsp\ p.png);
+  width: 40px;
+  height: 41px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: -2px;
+  right: -48px;
+}
+
+
+
+.content-flex{
+  display: flex;
+  padding: 0 2%;
+}
+
+.mockup{
+  width: 50%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 4%;
+  display: flex;
+  justify-content: center;
+
+  transition: 1.8s;
+  opacity: 0;
+  transform: translateY(100px);
+}
+.mockup.show{
+  transform: translateY(0);
+  opacity: 1;
+}
+.mockup img{
+  width: 100%;
+  height: auto;
+}
+
+.website-content{
+  margin: 0 0 0 auto;
+  width: 60%;
+
+  transition: 1.8s;
+  opacity: 0;
+  transform: translateY(120px);
+}
+.website-content.show{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+table{
+  width: 100%;
+  color: #020826;
+}
+
+th{
+  font-size: 20px;
+}
+td{
+  padding: 4%;
+  font-size: 14px;
+}
+
+
+
+
+/**/
+#process{
+  background-color: #947463;
+}
+.process-swiper{
+  background-color: #F9F4EF;
+  box-shadow: inset #020826 1px 1px 2px;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 2% 0;
+  width: 80%;
+}
+
+.process-swiper_wrapper{
+  height: 76vh;
+}
+
+.process_box p{
+  font-size: 18px;
+  margin: 0 32px;
+}
+.persona_box p{
+  font-size: 16px;
+}
+
+.works-title p{ /*一番最初のページ*/
+  text-align: center;
+  font-size: 24px;
+}
+.works-title{  /*一番最初のページ*/
+  text-align: center;
+  margin: 12px 20px;
+}
+.works-title img{  /*一番最初のページ*/
+  width: 60%;
+  margin: 28px auto;
+  box-shadow: #573001 2px 2px 8px;
+}
+
+.caption p{
+  font-size: 20px;
+  margin: 8px 32px;
+  color: #947463;
+}
+
+
+
+.persona_box{
+ 
+}
+
+.schedule{
+  margin: 20px 0;
+}
+.schedule-flex{
+  display: flex;
+  justify-content: left;
+  margin: 12px 32px 0;
+}
+.schedule li{
+  font-size: 14px;
+}
+.schedule-left{
+  margin-right: 20px;
+}
+
+
+.process_flex{
+  display: flex;
+  justify-content: center;
+}
+.process-img{
+  margin: 8px 12px;
+}
+
+.process_flex p{
+  margin: 0;
+  font-size: 12px;
+}
+
+.process_main--sp{
+  width: 17%;
+  display: inline-block;
+  color: #947463;
+}
+.process_main--pc{
+  width: 50%;
+  display: inline-block;
+  color: #947463;
+}
+.process_menu--sp{
+  width: 12%;
+  color: #947463;
+}
+.process_menu--pc{
+  width: 16%;
+  color: #947463;
+}
+
+.color_box{
+  display: flex;
+  justify-content: center;
+}
+.color-circle01,
+.color-circle02,
+.color-circle03,
+.color-circle04{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 28px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.color-circle01{
+  background-color: #fc8834;
+  color: #fff;
+}
+.color-circle02{
+  background-image: url(../portfolio_img/background.img.png);
+  color: #573001;
+}
+.color-circle03{
+  background-color: #573001;
+  color: #fff;
+}
+.color-circle04{
+  background-color: #fff;
+  color: #fc8834;
+}
+
+.font_box{
+  font-family: "Zen Maru Gothic", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.font_box p{
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 16px;
+  color: #573001;
+
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2%;
+}
+
+
+/**/
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    display: none !important;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    display: none !important;
+}
+.swiper-button-next, .swiper-button-prev {
+    top: var(--swiper-navigation-top-offset, 100%) !important;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, 30%) !important;
+    left: auto;
+    background-image: url(../portfolio_img/cut_apple.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    width: 60px;
+    height: 30px;
+    transform: scaleX(-1);
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: var(--swiper-navigation-sides-offset, 30%) !important;
+    right: auto;
+    background-image: url(../portfolio_img/cut_apple.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    width: 60px;
+    height: 30px;
+}
+
+:root {
+    --swiper-theme-color: #B24926 !important;
+    --swiper-navigation-size: 70px;
+}
+
+
+
+/**/
+.design_view{
+  padding: 8%;
+  background-color: #EADDCF;
+  border-radius: 20px;
+  margin-top: 104px;
+}
+.design_view p{
+  font-size: 32px;
+  margin-bottom: 56px;
+  text-align: center;
+}
+.design_view--flex{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 auto;
+}
+.design-pc{
+  width: 64%;
+}
+
+.design-sp{
+  width: 16%;
+}
+
+.design_view--flex img{
+  box-shadow: #947463 4px 4px 12px;
+}
+
+
+/**/
+.other-works_wrapper{
+  padding: 8%;
+  background-color: #EADDCF;
+  border-radius: 20px;
+}
+.other-works_wrapper p{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 56px;
+  text-align: center;
+}
+.other-works_fles-box{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.other-works{
+  background-color: #F9F4EF;
+  width: 20%;
+  margin: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+}
+.other-works img{
+
+}
+.other-works:hover{
+  border-color: #fff;
+  opacity: 0.5;
+}
+.other-works a{
+  color: #947463;
+}
+
+.works_button{
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.works_button a{
+  color: #020826;
+}
+
+
+  
+
+@media screen and (min-width:568px) and (max-width:985px){
+  th {
+    font-size: 16px;
+}
+
+  td {
+    padding: 2%;
+    font-size: 11px;
+}
+
+
+.process_box p{
+    font-size: 18px;
+}
+.persona_box p{
+  font-size: 14px;
+}
+
+.works-title p{ /*一番最初のページ*/
+  text-align: center;
+  font-size: 18px;
+}
+.works-title{  /*一番最初のページ*/
+  text-align: center;
+  margin: 12px 20px;
+}
+.caption p{
+  font-size: 18px;
+}
+ 
+.schedule li {
+    font-size: 12px;
+}
+.font_box p{
+  font-size: 26px;
+  margin: 0 16px;
+}
+
+
+.process_flex p {
+    margin: 0;
+    font-size: 12px;
+}
+  .design_view {
+    width: 70%;
+    margin: 0 auto;
+}
+
+}
+@media screen and (max-width:568px){
+
+.works-title p{ /*一番最初のページ*/
+  text-align: center;
+  font-size: 14px;
+}
+
+
+.process_box p{
+  font-size: 14px;
+}
+.caption p{
+  font-size: 16px;
+}
+.persona_box p{
+  font-size: 12px;
+}
+.process_main--sp {
+    width: 20%;
+    display: inline-block;
+}
+.process_main--pc {
+    width: 55%;
+    display: inline-block;
+}
+.process_menu--sp {
+    width: 20%;
+}
+.process_menu--pc {
+    width: 30%;
+}
+.process-img{
+    margin: 8px;
+}
+.schedule-left {
+    margin-right: 0;
+}
+
+.color-circle01,
+.color-circle02,
+.color-circle03,
+.color-circle04{
+  width: 80px;
+  height: 80px;
+  font-size: 14px;
+  margin: 28px 0;
+}
+
+.font_box p{
+  font-size: 16px;
+  margin: 0 16px;
+}
+
+
+}
+@media screen and (max-width:768px){
+  h2{
+    font-size: 20px;
+    padding-left: 12%;
+  }
+  h2::after{
+    width: 21px;
+    height: 22px;
+    right: -24px;
+  }
+  .title-flex{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .content-flex{
+    display: block;
+  }
+  .mockup {
+    margin: 0 auto;
+    width: 60%;
+    
+  }
+  .website-content {
+    margin: 24px auto 0;
+    width: 80%;
+  }
+
+  table{
+    margin: 0 auto;
+  }
+  th {
+    font-size: 16px;
+    display: inherit;
+  }
+
+  td {
+    line-height: 14px;
+    padding: 4% 0;
+    font-size: 13px;
+    display: inline-block;
+  }
+
+
+/**/
+  .process_wrapper{
+    padding: 56px 0;
+  }
+  .process-swiper {
+    width: 100%;
+    display: inline-block;
+}
+
+  .schedule {
+    margin: 8px 0;
+}
+
+  .schedule-flex {
+    margin: 8px 36px 0;
+    width: 90%;
+}
+  .schedule li {
+    font-size: 12px;
+}
+
+  
+  .process_box img{
+    width: 100%;
+}
+.works-title img{
+    width: 80%;
+  }
+  
+
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: var(--swiper-navigation-sides-offset, 20%) !important;
+    width: 40px;
+    height: 20px;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, 20%) !important;
+    width: 40px;
+    height: 20px;
+}
+
+:root {
+    --swiper-navigation-size: 48px;
+}
+
+
+
+
+/**/
+  .design_view {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .design_view--flex {
+    display: flex;
+    justify-content: center;
+    /* margin: 0 0 0 auto; */
+  }
+  .design-pc {
+    width: 30%;
+    margin-right: 76px;
+  }
+  .design-sp {
+    width: 10%;
+  }
+
+  /****/
+  .banner_box img{
+    width: 360px;
+  }
+}
+
+
+

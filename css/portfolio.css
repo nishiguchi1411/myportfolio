@@ -1,0 +1,74 @@
+.color-circle01,
+.color-circle02,
+.color-circle03,
+.color-circle04{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 28px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+
+.color-circle01{
+  background-color: #F9F4EF;
+  border: #020826 1px solid;
+  color: #020826;
+}
+.color-circle02{
+  background-color: #EADDCF;
+  color: #947463;
+  background-image: none;
+}
+.color-circle03{
+  background-color: #947463;
+  color: #F9F4EF;
+}
+.color-circle04{
+  background-color: #B24926;
+  color: #F9F4EF;
+}
+.color-circle05{
+  background-color: #3F704F;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F9F4EF;
+}
+.color-circle05 p{
+  font-size: 12px;
+}
+.font_box{
+  font-family: "Kaisei Opti", serif;;
+  color: #020826;
+}
+
+@media screen and (max-width:568px) {
+  .color-circle01,
+  .color-circle02,
+  .color-circle03,
+  .color-circle04{
+  width: 80px;
+  height: 80px;
+  font-size: 14px;
+  margin: 28px 0;
+}
+.color-circle05{
+  width: 40px;
+  height: 40px;
+}
+.color-circle05 p{
+  font-size: 8px;
+}
+}
+@media screen and (max-width:568px) {
+.color_box{
+    flex-wrap: wrap;
+  }
+}

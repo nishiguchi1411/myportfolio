@@ -1,0 +1,41 @@
+.color-circle01{
+  background-color: #FFFFFF;
+  border: #294B63 1px solid;
+  color: #294B63;
+}
+.color-circle02{
+  background-color: #518FBB;
+  color: #ECF7FB;
+  background-image: none;
+}
+.color-circle03{
+  background-color: #ECF7FB;
+  color: #518FBB;
+}
+.color-circle04{
+  background-color: #2B7BB2;
+  color: #FFFFFF;
+}
+.color-circle05{
+  background-color: #294B63;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+.color-circle05 p{
+  font-size: 12px;
+}
+.font_box{
+  font-family: "Yu Gothic", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.design-pc{
+  margin: 0 auto;
+  text-align: center;
+}
